@@ -8,5 +8,6 @@ export const useCounterStore = defineStore('counter', () => {
     count.value++
   }
 
+// 자바스크립트는 key값을 생략가능하다! value명이랑 key명이 같으면 생략!
   return { count, doubleCount, increment }
 })
